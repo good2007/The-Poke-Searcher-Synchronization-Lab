@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         <header className="flex justify-center border-b border-slate-200 bg-white/95 px-6 py-4 shadow-sm backdrop-blur-sm">
           <div className="max-w-6xl text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.25em] text-slate-500">
-              Poké-Searcher Synchronization Lab
+              Poké-Searcher Synchronization Lab by Goodrick Abedi
             </p>
             <p className="mt-1 text-xs text-slate-400">
               Fast, clean Pokémon search experience powered by the PokéAPI.

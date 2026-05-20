@@ -67,10 +67,10 @@ export default function Home() {
               Live search
             </span>
             <p className="mt-4 text-sm uppercase tracking-[0.25em] text-slate-500">
-              Poké-Searcher Synchronization Lab
+              Poké-Searcher Synchronization Lab by Goodrick Abedi
             </p>
             <h1 className="mt-4 text-4xl font-semibold text-slate-950 sm:text-5xl">
-              Fast Pokémon search with a refined dashboard.
+              Fast Pokémon search with real-time preview
             </h1>
             <p className="mt-4 max-w-2xl mx-auto text-base text-slate-600 sm:text-lg">
               Type a Pokémon name to instantly preview the sprite, types, and core stats in a crisp app UI.
@@ -90,7 +90,7 @@ export default function Home() {
                 className="w-full rounded-3xl border border-slate-300 bg-slate-50 px-5 py-4 text-lg font-medium text-slate-900 outline-none transition focus:border-violet-500 focus:ring-2 focus:ring-violet-100"
               />
               <p className="text-sm text-slate-500">
-                The dashboard only queries the PokéAPI when the input is not empty.
+                The dashboard only queries the PokéAPI when the input is filled.
               </p>
 
               {isLoading && (
